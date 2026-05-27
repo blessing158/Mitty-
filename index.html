@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Miity</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial;
+    }
+
+    body{
+      background:#050816;
+      color:white;
+      overflow-x:hidden;
+    }
+
+    .navbar{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      padding:20px;
+      background:#081120;
+      position:sticky;
+      top:0;
+      border-bottom:1px solid #1E293B;
+    }
+
+    .logo{
+      font-size:32px;
+      font-weight:bold;
+      background:linear-gradient(90deg,#7C3AED,#06B6D4);
+      -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent;
+    }
+
+    .hero{
+      padding:40px 20px;
+      text-align:center;
+      background:
+      linear-gradient(135deg,#7C3AED,#2563EB,#06B6D4);
+      border-radius:0 0 40px 40px;
+    }
+
+    .hero h1{
+      font-size:48px;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      font-size:20px;
+      color:#E2E8F0;
+      margin-bottom:30px;
+    }
+
+    .button{
+      background:white;
+      color:#7C3AED;
+      border:none;
+      padding:18px 35px;
+      border-radius:20px;
+      font-size:18px;
+      font-weight:bold;
+    }
+
+    .section{
+      padding:30px 20px;
+    }
+
+    .section-title{
+      font-size:32px;
+      margin-bottom:20px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:#101A2D;
+      padding:25px;
+      border-radius:25px;
+      border:1px solid #1E293B;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+      box-shadow:0 0 30px rgba(124,58,237,0.4);
+    }
+
+    .card h2{
+      margin-bottom:15px;
+    }
+
+    .trending{
+      display:flex;
+      gap:15px;
+      overflow-x:auto;
+      padding-bottom:10px;
+    }
+
+    .trend{
+      min-width:220px;
+      background:
+      linear-gradient(135deg,#111827,#1E293B);
+      padding:25px;
+      border-radius:25px;
+      font-size:20px;
+      border:1px solid #334155;
+    }
+
+    footer{
+      text-align:center;
+      padding:40px 20px;
+      color:#64748B;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="logo">MIITY</div>
+    <div>⚡ Future Social</div>
+  </div>
+
+  <div class="hero">
+    <h1>The Future Beyond WhatsApp</h1>
+
+    <p>
+      AI • Realtime Chat • Reels • Communities • Premium Design
+    </p>
+
+    <button class="button">
+      Enter Miity
+    </button>
+  </div>
+
+  <div class="section">
+    <h1 class="section-title">Features</h1>
+
+    <div class="grid">
+
+      <div class="card">
+        <h2>🤖 AI Assistant</h2>
+        <p>
+          Smart AI built directly into your social experience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>💬 Smart Messaging</h2>
+        <p>
+          Fast futuristic realtime conversations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>🎬 Ultra Reels</h2>
+        <p>
+          Immersive next-generation scrolling experience.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>🌍 Communities</h2>
+        <p>
+          Create spaces for creators, gamers, and innovators.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <h1 class="section-title">Trending Spaces</h1>
+
+    <div class="trending">
+      <div class="trend">🚀 AI Creators</div>
+      <div class="trend">🎮 Gaming Universe</div>
+      <div class="trend">💎 Digital Future</div>
+      <div class="trend">🌌 Future Tech</div>
+    </div>
+  </div>
+
+  <footer>
+    Miity © 2026 — The Future of Social Platforms
+  </footer>
+
+</body>
+</html>
